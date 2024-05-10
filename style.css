@@ -1,0 +1,268 @@
+.header-phone_box {
+  position: relative;
+}
+
+.header-phone_box-inner {
+  position: relative;
+  color:black
+  font-size: 16px;
+  padding-left: 40px;
+}
+
+.header-phone_box-icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  line-height: 1em !important;
+  color: black;
+  font-size: 44px !important;
+  font-family: "flaticon_monic-flat";
+  -webkit-animation: icon-bounce 0.8s ease-out infinite;
+  animation: icon-bounce 0.8s ease-out infinite;
+}
+@keyframes icon-bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+.header-phone_box a {
+  position: relative;
+  font-weight: 700;
+  display: block;
+  color:black ;
+  margin-top: 5px;
+}
+
+.header-phone_box a:hover {
+  color: black;
+}
+.fa-phone:before {
+  content: "\f095";
+  color: #f7944b;
+  margin-top: 40px;
+}
+
+.border-left {
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+  }
+  .border-right {
+    border-right-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+  }
+  #footer {
+    background-color:#f7944b;
+;
+    ;
+  }
+  #background {
+    background-image: url("img/images1.jpg");
+    height: 102vh;
+    background-size: cover;
+    position: relative;
+  }
+  #background .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+    text-align: center;
+  }
+  #background h2 {
+    color: white;
+    position: absolute;
+  }
+  #background .overlay {
+    background: #eee4dc;
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .info h2 {
+    text-align: center;
+  }
+  .nav-link {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  #working .col-md-3 {
+    width: 20%;
+  }
+  #working .heading {
+    background-color: #a8cf44;
+    color: white;
+    border-radius: 1% 55% 1%;
+  }
+  #footer .nav-link {
+    color: rgb(241, 229, 229);
+  }
+  .colorheading {
+    color: #f7944b;
+  
+  }
+  .find {
+    background-color: #01afef;
+    color: #eee4dc;
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
+    border-radius: 0.25rem;
+  }
+  .find:hover {
+    background-color: aliceblue;
+    color: #f7944b;
+  }
+  
+  .title {
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+  }
+  #review .card {
+    border: 1px solid #f7944b;
+  }
+  #review h1 {
+    color: black;
+  }
+  
+  #youtube .card {
+    border: 1px solid #a8cf44;
+  }
+  
+  #youtube .card:hover {
+    border: 1px solid #a8cf44;
+    border-radius: 5%;
+    transform: translateY(-10px);
+    color: black;
+  }
+  
+  #influencer img {
+    height: 450px;
+  }
+  .w-225 {
+    width: 20%;
+  }
+  
+  #influencer .influencerbox .card {
+    border: 1px solid #a8cf44;
+  }
+  #influencer .card:hover {
+    border-radius: 5%;
+    transform: translateY(-10px);
+    color: black;
+  }
+  
+  #instagram .card {
+    border: 1px solid #a8cf44;
+  }
+  
+  #meme .card {
+    border: 1px solid #a8cf44;
+  }
+  #instagram .card:hover {
+    border: 1px solid #a8cf44;
+    border-radius: 5%;
+    transform: translateY(-10px);
+    color: black;
+  }
+  #meme .card:hover {
+    border: 1px solid #a8cf44;
+    border-radius: 5%;
+    transform: translateY(-10px);
+    color: black;
+  }
+  
+  #Engage button:hover {
+    background-color: rgb(253, 254, 255);
+    color: #f7944b;
+  }
+  #abt .card:hover {
+    border-radius: 5%;
+    transform: translateY(-10px);
+    color: black;
+  }
+  .hob {
+    background-color: #f7944b;
+  }
+  .cont1 {
+    color: #01afef;
+  }
+  .section1 {
+    border: 1px solid #a8cf44;
+    border-radius: 5%;
+  }
+  .cardheading {
+    color: #01afef;
+  }
+  .section1 .card:hover {
+    border: 1px solid #a8cf44;
+    border-radius: 5%;
+    transform: translateY(-10px);
+    color: black;
+  }
+  .loginbutton {
+    color: #a8cf44;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0.125) !important;
+    /* border-radius: .25rem; */
+  }
+  .clientheading {
+    color: #a8cf44;
+  }
+  .button1 {
+    border-radius: 12px;
+  }
+  .button2 {
+    background-color: #f7944b;
+    color: #eee4dc;
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
+    border-radius: 0.25rem;
+  }
+  .button2:hover {
+    color: #f7944b;
+  }
+  
+  .video {
+    margin-bottom: 20px;
+    margin-left: 45px;
+  }
+  
+  .mr {
+    margin-right: 10px;
+  }
+  .words{
+    color: #01afef;
+    font-weight: 400;
+  }
+  .top{
+    color: #a8cf44;
+    
+  }
